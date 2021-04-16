@@ -1,0 +1,63 @@
+body {
+  margin: auto;
+  text-align: center;
+}
+
+.startPage {
+  padding-top:5vh;
+  height: 100vh;
+}
+
+.active {
+  position: fixed;
+  top: 0;
+  transform: translateX(0%);
+  width: 100vw;
+  height: 100vh;
+  background-color: #f4d16b;
+  color: white;
+  visibility: visible;
+  transition: 1s;
+}
+.hide {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(66, 66, 66);
+  color: white;
+  position: fixed;
+  top: 0;
+  visibility: hidden;
+  transform: translateX(500%);
+  transition: 2s;
+}
+
+.timeWrapper {
+  padding-top: 35vh;
+}
+
+.time {
+  font-size: 10vh;
+  font-weight: bold;
+}
+
+.messages {
+  padding-top: 5vh;
+  color: #f49d25;
+}
+
+input{
+  width: 60vw;
+  height: 7vh;
+  padding-left:9px ;
+  border: 2px solid #f4d16b;
+  border-radius: 4px;
+}
+
+button{
+width: 20vw;
+  height: 7vh;
+  color: white;
+  background: #f4d16b;
+  border: 2px solid #f4d16b;
+  border-radius: 4px;
+}
